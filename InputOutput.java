@@ -12,6 +12,10 @@ public class InputOutput{
    System.out.print("Input nama : ");
    nama = scanner.nextLine();
 
+   System.out.print("Masukan nama anda : ");
+   nama = scanner.nextLine();
+   System.out.println("Hai, "+nama);
+
    System.out.print("Input usia : ");
    usia = scanner.nextInt();
 
@@ -19,7 +23,9 @@ public class InputOutput{
    IPK = scanner.nextDouble();
 
    System.out.println("Hai " + nama);
+
    System.out.println("usia : " + usia);
+
    System.out.println("IPK : " + IPK);
  }
 }
