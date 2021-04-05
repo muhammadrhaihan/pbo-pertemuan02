@@ -4,7 +4,7 @@ public class InputOutput{
  public static void main(String[]args){
   
    String nama;
-   int jumlahSks;
+   int usia;
    double IPK;
   
    Scanner scanner = new Scanner(System.in);
